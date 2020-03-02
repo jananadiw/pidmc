@@ -66,12 +66,8 @@ float microsecondsToCentimeters(long microseconds)
 {
 
     float seconds = (float)microseconds / 1000000.0;
-
     float distance = seconds * 340;
-
     distance = distance / 2;
-
     distance = distance * 100;
-
     return distance;
 }
